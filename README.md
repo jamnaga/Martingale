@@ -14,10 +14,11 @@ A Martingale is a class of betting strategies that originated from and were popu
 
 ## About TFactor <a name = "about_tfactor"></a>
 
-In order to apply the martingale progression we have to double the bet with each loss, the worst case is the consecutive bets on the losing color. In this case we are helped by the TFactor (or simply, Factor T) it represent the maximum number of possible losing attempts with a certain capital: the higher the T, the more chance we have of recovering the amount in loss that is generated when we lose more than once.
+In order to apply the martingale progression we have to double the bet with each loss, the worst case is the consecutive bets on the losing color. In this case we are helped by the TFactor (or simply, Factor T) it represents the maximum number of possible losing attempts with a certain capital: the higher the T, the more chance we have of recovering the amount in loss that is generated when we lose more than once.
 
 ## TFactor example <a name = "example"></a>
 
+_Games played with the game of roulette are considered in the following examples_
 ```
 ===============================
 tbal: Total balance
