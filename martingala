@@ -1,0 +1,9 @@
+#!/usr/bin/env php
+<?php
+
+include("vendor/autoload.php");
+
+TFactor::getMaxTries(1000000000, 0.10);
+//TFactor::getBalanceToPlay(37, 0.10);
+
+?>
